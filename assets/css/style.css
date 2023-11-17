@@ -1087,8 +1087,29 @@ section {
   color: #eaebf0;
 }
 
+.icon-div{
+  height: 15vh;
+}
 
+.navbar-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
 
+.navbar-icon li {
+  opacity: 0.5;
+  margin-right: 10px;
+  transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s; /* Add box-shadow transition */
+}
+
+.navbar-icon li:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
 
 
 @media (max-width: 1199px) {
